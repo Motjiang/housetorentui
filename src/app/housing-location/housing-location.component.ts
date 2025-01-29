@@ -5,9 +5,11 @@ import { HousingLocation } from '../housinglocation';
 @Component({
   selector: 'app-housing-location',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   template: `
-    <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
+    <p>
+      housing-location works!
+    </p>
   `,
   styleUrl: './housing-location.component.css'
 })

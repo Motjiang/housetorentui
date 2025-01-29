@@ -15,8 +15,8 @@ import { CommonModule } from '@angular/common';
       </form>
     </section>
     <section class="results">
-    <app-housing-location></app-housing-location>
-  </section>
+    <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
+    </section>
   `,
   styleUrl: './home.component.css'
 })
